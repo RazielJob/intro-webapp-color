@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector de Color RGB</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-header bg-primary text-white">
+      <h1 class="mb-0">Selector de Color RGB</h1>
+    </div>
+    <div class="card-body">
+      <div class="form-group">
+        <label for="colorPicker">Seleccionar color:</label>
+        <input type="color" class="form-control" id="colorPicker">
+      </div>
+      <div class="form-group">
+        <label for="redRange">Rojo:</label>
+        <input type="range" class="form-control-range" id="redRange" min="0" max="255" value="0">
+        <input type="text" class="form-control" id="redInput" placeholder="Valor Rojo">
+      </div>
+      <div class="form-group">
+        <label for="greenRange">Verde:</label>
+        <input type="range" class="form-control-range" id="greenRange" min="0" max="255" value="0">
+        <input type="text" class="form-control" id="greenInput" placeholder="Valor Verde">
+      </div>
+      <div class="form-group">
+        <label for="blueRange">Azul:</label>
+        <input type="range" class="form-control-range" id="blueRange" min="0" max="255" value="0">
+        <input type="text" class="form-control" id="blueInput" placeholder="Valor Azul">
+      </div>
+      <div class="mt-4">
+        <h4>Color resultante</h4>
+        <div id="colorBox" class="color-box"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
