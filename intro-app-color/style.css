@@ -1,0 +1,13 @@
+.color-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  
